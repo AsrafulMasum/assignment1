@@ -272,3 +272,37 @@ width: 600px;
   width: 260px;
   height: 300px;
 }
+
+.input{
+  margin: 0px 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../assets/Rectangle\ 9.png);
+  height: 400px;
+  margin-bottom: 128px;
+  border-radius: 8px;
+}
+
+.input_title>h2{
+  color: #272727;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.input_title>span{
+  color: #27272799;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.input_field{
+  border: none;
+  border-radius: 8px;
+  width: 450px;
+  padding: 15px 10px;
+  margin-right: 16px;
+  outline: none;
+}
