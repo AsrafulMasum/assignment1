@@ -6,14 +6,17 @@
   line-height: normal;
 }
 
+body{
+  height: 2000px;
+}
+
 .nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #0597A026;
   padding: 10px 0px;
-  position: fixed;
-  width: 100vw;
+  width: 99vw;
 }
 
 .nav_title{
@@ -63,3 +66,35 @@
   color: #FFFFFF;
   font-weight: 700;
 }
+
+.hero{
+  background-color: #E554731A;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px 0px;
+  width: 99vw;
+}
+
+.hero_container{
+width: 600px;
+}
+
+.hero_container>h2{
+  color: #272727;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.hero_container>p{
+  color: #27272799;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 32px 0px;
+}
+
+.hero_pic{
+  width: 435px;
+}
+
