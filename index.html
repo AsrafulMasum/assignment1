@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
   <link rel="stylesheet" href="styles/style.css">
   <title>Online flower</title>
@@ -21,7 +22,7 @@
       <ul class="menu">
         <li><a href="#">Flowers</a></li>
         <li><a href="#">Supports</a></li>
-        <li><a href="#">Delivery List</a></li>
+        <li><a href="#">Orders</a></li>
         <button class="btn_header">Shop Now</button>
       </ul>
     </nav>
@@ -148,8 +149,65 @@
       
     </section>
 
-    <section class="review">
-      
+    <section class="order">
+      <h2>Orders</h2>
+
+      <div class="inputs">
+        <input type="text" placeholder="Name">
+        <input type="email" name="" id="" placeholder="Email">
+        <input type="datetime" name="" id="" placeholder="Date">
+        <input type="text" placeholder="Address">
+        <input type="text" name="flower" list="flowername" placeholder="Choose A Bouquet">
+        <datalist id="flowername">
+          <option value="Rose"></option>
+          <option value="Lily"></option>
+          <option value="African Daisy"></option>
+          <option value="Tulip"></option>
+          <option value="Daffodil"></option>
+          <option value="Daisy"></option>
+          <option value="Sunflower"></option>
+          <option value="Lotus"></option>
+          <option value="Orchid"></option>
+          <option value="Dahlia"></option>
+        </datalist>
+      </div>
+
+      <div class="btn_submit">
+        <input class="btn_primary" type="submit" value="Order">
+        <input class="btn_primary" type="reset" value="Reset">
+      </div>
+
+    </section>
+
+    <section class="reviews">
+
+      <div class="reviews_container">
+        <img src="assets/profile.png" alt="">
+        <div class="reviews_title">
+          <div>
+            <h2>Jacob Jones</h2>
+            <div>
+              <span class="material-symbols-sharp">
+                grade
+              </span>
+              <span class="material-symbols-sharp">
+                grade
+              </span>
+              <span class="material-symbols-sharp">
+                grade
+              </span>
+              <span class="material-symbols-sharp">
+                grade
+              </span>
+              <span class="material-symbols-sharp">
+                grade
+              </span>
+            </div>
+          </div>
+          <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, ut modi. Nihil eum quasi similique quisquam totam? Quam sint eligendi consectetur facere molestiae sed repellendus eveniet error perspiciatis. Quo eveniet vel quidem harum nesciunt repellendus itaque voluptatum nulla qui et praesentium voluptatem nam consectetur nobis eligendi, ducimus possimus sapiente voluptate!</span>
+        </div>
+      </div>
+
     </section>
 
   </main>

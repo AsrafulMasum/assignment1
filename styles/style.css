@@ -312,6 +312,7 @@ width: 600px;
 .social_pic_container>img{
   width: 342px;
   height: 396px;
+  border-radius: 8px;
 }
 
 .input{
@@ -359,6 +360,114 @@ width: 600px;
   padding: 15px 10px;
   margin-right: 16px;
   outline: none;
+  font-size: 18px;
+}
+
+.order{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(../assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin:0px auto 128px;
+  width: 80vw;
+  height: 700px;
+  border-radius: 8px;
+}
+
+.order>h2{
+  color: #FFFFFFE5;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputs>input{
+  border: none;
+  border-radius: 8px;
+  width: 400px;
+  height: 34px;
+  padding: 15px 10px;
+  margin-right: 16px;
+  outline: none;
+  font-size: 18px;
+  background-color: #eca4b3;
+}
+
+.btn_submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.order>.btn_submit>input:hover{
+  box-shadow: 4px 4px 4px #57545466;
+}
+
+.reviews{
+  background-image: url(../assets/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80vw;
+  height: 449px;
+  border-radius: 8px;
+  margin: 0px auto 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reviews_container{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.reviews_container>img{
+  width: 100px;
+}
+
+.reviews_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 700px;
+  height: 250px;
+  color: #FFFFFFE5;
+}
+
+.reviews_title>div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 700px;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.reviews_title>span{
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
 }
 
 footer{
